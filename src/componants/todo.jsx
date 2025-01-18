@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function App() {
+export default function ToDo() {
   
 
   const [tasks, setTasks] = useState(["hi", "hello"]);
@@ -22,8 +22,7 @@ export default function App() {
   }
 
   return (
-    <div className="flex justify-center items-center bg-[#14213d] min-h-screen">
-      <div className="border-2 bg-white border-[#fca311] w-[40%] h-96 rounded-lg p-5">
+    <div className="border-2 bg-white border-[#fca311] w-[40%] h-96 rounded-lg p-5">
       <h1 className="font-bold text-3xl text-[#14213d] text-center">To-Do</h1>
       <div className="flex justify-center my-5 w-[100%]">
         <input
@@ -56,7 +55,6 @@ export default function App() {
           ))}
         </ol>
       </div>
-    </div>
     </div>
   );
 }
