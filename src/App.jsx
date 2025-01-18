@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function App() {
   
 
-  const [tasks, setTasks] = useState(["hi", "hello"]);
+  const [tasks, setTasks] = useState([]);
   const [ntask, setNewTask] = useState("");
 
   function addTask() {
