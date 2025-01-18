@@ -33,7 +33,7 @@ export default function App() {
           onChange={inputChange}
         />
         <button
-          className="w-[10%]  text-[#14213d] font-semibold bg-[#fca311] rounded-md"
+          className="  text-[#14213d] font-semibold bg-[#fca311] rounded-md h-10 w-14"
           onClick={addTask}
         >
           ADD
